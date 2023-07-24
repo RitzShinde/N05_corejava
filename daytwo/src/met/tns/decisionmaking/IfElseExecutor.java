@@ -1,7 +1,10 @@
-package met.tns.operator;
+//If Else statements--------------------------------
+package met.tns.decisionmaking;
 import java.util.*;
-public class Assignment {
-	public static void main(String args[]) {
+public class IfElseExecutor {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter your Age:");
 		int Age = sc.nextInt();
@@ -14,6 +17,8 @@ public class Assignment {
 			System.out.println("You are not Eligible");
 		}
 		
+	}	
+
 	}
 
-}
+
